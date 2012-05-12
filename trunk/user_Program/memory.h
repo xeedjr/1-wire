@@ -1,0 +1,25 @@
+#ifndef MEMORY_H
+#define MEMORY_H
+
+typedef struct mem_S {
+    struct {
+        int ID;
+        char type;
+        char name[256];
+        int comport;
+        int port;
+        char ip[20];
+    } adapters[100];
+    int adapters_num;
+} mem_S;
+
+class TMem {
+
+public:
+    mem_S   mem;
+    add_adapter(char type, char *name, int comport, int port, char *ip);
+};
+
+extern class TMem memory;
+
+#endif
