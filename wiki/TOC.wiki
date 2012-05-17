@@ -1,6 +1,6 @@
 Server
 
-Client
+Client:Client
 
 User Program
 
