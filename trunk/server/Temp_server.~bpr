@@ -4,7 +4,8 @@
   <MACROS>
     <VERSION value="BCB.06.00"/>
     <PROJECT value="Temp_server.exe"/>
-    <OBJFILES value="Temp_server.obj Unit1.obj adapters.obj CRC.obj DS9790U.obj SerialPort2.obj"/>
+    <OBJFILES value="Temp_server.obj Unit1.obj adapters.obj CRC.obj DS9790U.obj SerialPort2.obj 
+      Server_handler.obj"/>
     <RESFILES value="Temp_server.res"/>
     <IDLFILES value=""/>
     <IDLGENFILES value=""/>
@@ -61,6 +62,7 @@
       <FILE FILENAME="CRC.cpp" FORMNAME="" UNITNAME="CRC.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
       <FILE FILENAME="DS9790U.cpp" FORMNAME="" UNITNAME="DS9790U.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
       <FILE FILENAME="SerialPort2.cpp" FORMNAME="" UNITNAME="SerialPort2.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Server_handler.cpp" FORMNAME="" UNITNAME="Server_handler" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
   </FILELIST>
   <BUILDTOOLS>
   </BUILDTOOLS>
