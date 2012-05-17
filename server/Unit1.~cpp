@@ -120,6 +120,8 @@ void __fastcall TMyServerThread::ClientExecute(void)
     // 2bytes - len of next data
     // n bytes - Data
 
+   Form1->Memo1->Lines->Add("Thread Created");
+
    // make sure connection is active
    while (!Terminated && ClientSocket->Connected)
    {

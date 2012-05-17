@@ -4,7 +4,7 @@
   <MACROS>
     <VERSION value="BCB.06.00"/>
     <PROJECT value="Temp_client.exe"/>
-    <OBJFILES value="Temp_client.obj Unit.obj Unit1.obj"/>
+    <OBJFILES value="Temp_client.obj Unit.obj Unit1.obj CRC.obj"/>
     <RESFILES value="Temp_client.res"/>
     <IDLFILES value=""/>
     <IDLGENFILES value=""/>
@@ -58,6 +58,7 @@
       <FILE FILENAME="Temp_client.cpp" FORMNAME="" UNITNAME="Temp_client" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
       <FILE FILENAME="Unit.cpp" FORMNAME="Form1" UNITNAME="Unit" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
       <FILE FILENAME="Unit1.cpp" FORMNAME="" UNITNAME="Unit1" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="CRC.cpp" FORMNAME="" UNITNAME="CRC" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
   </FILELIST>
   <BUILDTOOLS>
   </BUILDTOOLS>

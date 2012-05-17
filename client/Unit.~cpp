@@ -270,7 +270,10 @@ void __fastcall TForm1::ClientSocket1Read(TObject *Sender,
                             float temp_c = temp2 / 16.0;
                             Form1->Memo1->Lines->Add(temp_c);
 
-                            Write_to_DB(buf, temp_c);
+                            if (ADOConnection1->Connected == true)
+                            {
+                                Write_to_DB(buf, temp_c);
+                            };
                         }
                         else
                         {
@@ -300,6 +303,10 @@ void __fastcall TForm1::Button7Click(TObject *Sender)
     {
         ADOConnection1->ConnectionString = connectstr;
         ADOConnection1->Connected = true;
+    }
+    else
+    {
+        Memo1->Lines->Add("Olready connected to DB");
     };
 
 
