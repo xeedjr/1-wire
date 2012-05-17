@@ -1,7 +1,7 @@
-Server
+[Server]
 
-Client:Client
+[Client]
 
-User Program
+[User Program]
 
-Description
+[Description]
