@@ -2,6 +2,6 @@
 
 [Client]
 
-[User Program]
+[User_Program]
 
 [Description]
