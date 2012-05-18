@@ -1,8 +1,6 @@
-#sidebar TOC
-
 Серверна программа
 
-{{http://dokuwiki.ru/lib/exe/fetch.php?hash=2339f4&w=200&h=50&media=ptth%3A%2F%2Fde3.php.net%2Fimages%2Fphp.gif}}
+[[s1.png:server]]
 
 При старті відкриває COM порт і пробує достукатися до адаптера
 При вдалій спробі видає повідомлення в лог і очікує підключення клієнта
