@@ -40,6 +40,9 @@ __published:	// IDE-managed Components
     TEdit *Edit6;
     TEdit *Edit7;
     TEdit *Edit8;
+    TButton *Button9;
+    TButton *Button10;
+    TButton *Button11;
     void __fastcall Button2Click(TObject *Sender);
     void __fastcall Button1Click(TObject *Sender);
     void __fastcall Button3Click(TObject *Sender);
@@ -61,9 +64,13 @@ __published:	// IDE-managed Components
           TEventStatus &EventStatus);
     void __fastcall Button8Click(TObject *Sender);
     void __fastcall FormClose(TObject *Sender, TCloseAction &Action);
+    void __fastcall Button9Click(TObject *Sender);
+    void __fastcall Button10Click(TObject *Sender);
+    void __fastcall Button11Click(TObject *Sender);
 private:	// User declarations
 public:		// User declarations
     void Write_to_DB(unsigned char *Serial, float temp);
+    void Write_to_PQDB(unsigned char *Serial, float temp);
     Recv_Thread_C *thread;
     void __fastcall Thread( void* pParams );
     void __fastcall Send_message(unsigned char type,
