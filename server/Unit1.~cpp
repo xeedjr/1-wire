@@ -68,8 +68,6 @@ void __fastcall TForm1::ServerSocket1ClientWrite(TObject *Sender,
       TCustomWinSocket *Socket)
 {
     Memo1->Lines->Add("Client Write");
-
-
 }
 //---------------------------------------------------------------------------
 
@@ -79,7 +77,6 @@ void __fastcall TForm1::ServerSocket1Listen(TObject *Sender,
         Memo1->Lines->Add("On Listen");
 }
 //---------------------------------------------------------------------------
-
 
 void __fastcall TForm1::FormCreate(TObject *Sender)
 {
@@ -96,6 +93,7 @@ void __fastcall TForm1::FormCreate(TObject *Sender)
         Memo1->Lines->Add("Open adapter Error");
     };
 }
+
 //---------------------------------------------------------------------------
 void __fastcall TForm1::FormClose(TObject *Sender, TCloseAction &Action)
 {
@@ -110,15 +108,15 @@ void __fastcall TForm1::FormClose(TObject *Sender, TCloseAction &Action)
 // object that is created when the listening server socket accepts a client connection. 
 // This is available as the public ClientSocket property. In addition, you can use the 
 // protected HandleException method rather than writing your own thread-safe exception
-// handling. 
+// handling.
 void __fastcall TMyServerThread::ClientExecute(void)
 {
     unsigned char buf[65535];
 
-    // Format incoming commands
-    // 1byte - type of message
-    // 2bytes - len of next data
-    // n bytes - Data
+   // Format incoming commands
+   // 1byte - type of message
+   // 2bytes - len of next data
+   // n bytes - Data
 
    Form1->Memo1->Lines->Add("Thread Created");
 

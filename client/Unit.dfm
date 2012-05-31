@@ -1,6 +1,6 @@
 object Form1: TForm1
-  Left = 192
-  Top = 111
+  Left = 421
+  Top = 387
   Width = 741
   Height = 362
   Caption = 'Form1'
@@ -78,7 +78,7 @@ object Form1: TForm1
   end
   object Button6: TButton
     Left = 24
-    Top = 296
+    Top = 280
     Width = 75
     Height = 25
     Caption = 'Auto get T oll'
@@ -86,7 +86,7 @@ object Form1: TForm1
     OnClick = Button6Click
   end
   object Button7: TButton
-    Left = 584
+    Left = 680
     Top = 8
     Width = 75
     Height = 25
@@ -95,7 +95,7 @@ object Form1: TForm1
     OnClick = Button7Click
   end
   object BitBtn1: TBitBtn
-    Left = 584
+    Left = 680
     Top = 48
     Width = 75
     Height = 25
@@ -166,6 +166,33 @@ object Form1: TForm1
     Height = 21
     TabOrder = 17
     Text = '122121'
+  end
+  object Button9: TButton
+    Left = 576
+    Top = 8
+    Width = 75
+    Height = 25
+    Caption = 'connect DB'
+    TabOrder = 18
+    OnClick = Button9Click
+  end
+  object Button10: TButton
+    Left = 576
+    Top = 40
+    Width = 75
+    Height = 25
+    Caption = 'disconect DB'
+    TabOrder = 19
+    OnClick = Button10Click
+  end
+  object Button11: TButton
+    Left = 576
+    Top = 72
+    Width = 75
+    Height = 25
+    Caption = 'cheack conn'
+    TabOrder = 20
+    OnClick = Button11Click
   end
   object ClientSocket1: TClientSocket
     Active = False

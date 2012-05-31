@@ -111,7 +111,7 @@ void __fastcall TForm1::FormClose(TObject *Sender, TCloseAction &Action)
 // handling.
 void __fastcall TMyServerThread::ClientExecute(void)
 {
-    unsigned char buf[65535];
+   unsigned char buf[65535];
 
    // Format incoming commands
    // 1byte - type of message
